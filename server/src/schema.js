@@ -94,3 +94,6 @@ export { typeDefs, resolvers }
 
 //resolvers 는 server.js 에 있는 ApolloServer 서버에서 요청을 받음. ApolloServer가 query 나 mutation 의 정의를 발견하면 resolvers 를 찾고 해당 함수를 실행함
 
+
+//lodash
+//https://blog.naver.com/leenuri7/222072440551
