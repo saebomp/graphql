@@ -37,6 +37,10 @@ const typeDefs = gql`
     removeContact(id: String!): Contact
   }
 `
+
+//Muation 을 정의해주고 addContact 라는 함수를 만듬. 이 함수는 parameter 로 id, firstName, lastName 을 받게되고 새롭게 만들어진 Contact 를 리턴해줌
+
+
 // type 정해주는게 endpoint 이라고 볼수있음. 가져올 포인트를 정해주니깐
 
 //Contact 는 graphql object type name 임
