@@ -8,8 +8,8 @@ const app = express()
 
 server.applyMiddleware({app}) //gonna pass in app into it
 
-app.listen({port:4000}, () =>
-  console.log(`Server ready at http://localhost:4000${server.graphqlPath}`)
+app.listen({port:4001}, () =>
+  console.log(`Server ready at http://localhost:4001${server.graphqlPath}`)
 )
 
 
